@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
  
-/* Function to sort an array using insertion sort*/
+
 void insertionSort(int arr[], int n)
 {
    int i, key, j;
@@ -32,7 +32,7 @@ void printArray(int arr[], int n)
  
  
  
-/* Driver program to test insertion sort */
+
 int main()
 {
     int arr[] = {12, 11, 13, 5, 6, 60, 77, 4, 25, 4};
