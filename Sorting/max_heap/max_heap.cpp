@@ -25,11 +25,11 @@ void build_maxheap(int *a,int n) {
 }
 int main() {
    int n, i;
-   cout<<"enter no of elements of array\n";
+   cout<<"Entre com o numero de elementos do array\n";
    cin>>n;
    int a[30];
    for (i = 1; i <= n; i++) {
-      cout<<"enter elements"<<" "<<(i)<<endl;
+      cout<<"Entre com o Elemento"<<" "<<(i)<<endl;
       cin>>a[i];
    }
    build_maxheap(a,n);
